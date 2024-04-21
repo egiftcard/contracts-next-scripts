@@ -1,15 +1,15 @@
 import { PRIVATE_KEY, SECRET_KEY } from "../config.js";
 import {
-  createThirdwebClient,
+  createEgiftcardClient,
   prepareContractCall,
   getContract,
   sendTransaction,
   waitForReceipt,
-} from "thirdweb";
-import { privateKeyAccount } from "thirdweb/wallets";
-import { arbitrumSepolia } from "thirdweb/chains";
-import { keccak256 } from "thirdweb/utils";
-import { MerkleTree } from "@thirdweb-dev/merkletree";
+} from "egiftcard";
+import { privateKeyAccount } from "egiftcard/wallets";
+import { arbitrumSepolia } from "egiftcard/chains";
+import { keccak256 } from "egiftcard/utils";
+import { MerkleTree } from "@egiftcard/merkletree";
 
 import ERC721CORE_ABI from "../../abi/ERC721Core.json" assert { type: "json" };
 
@@ -32,7 +32,7 @@ function getAllowlistMerkleProof(recipient) {
 
 const TARGET_TOKEN_CORE_ADDRESS = "0xF3cD296A5a120FC8043E0e24C0e7857C24c29143"; // REPLACE WITH YOUR TOKEN ADDRESS
 
-const client = createThirdwebClient({
+const client = createEgiftcardClient({
   secretKey: SECRET_KEY,
 });
 

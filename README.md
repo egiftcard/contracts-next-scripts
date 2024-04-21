@@ -1,6 +1,6 @@
 # Contracts-next scripts
 
-Scripts showing how to interact with [contracts-next](https://github.com/thirdweb-dev/contracts-next) using the [thirdweb v5 SDK](https://portal.thirdweb.com/typescript/v5).
+Scripts showing how to interact with [contracts-next](https://github.com/egiftcard/contracts-next) using the [egiftcard v5 SDK](https://portal.egiftcard.cc/typescript/v5).
 
 ```bash
 scripts
