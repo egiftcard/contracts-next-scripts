@@ -81,7 +81,7 @@
     stream-browserify "^3.0.0"
     util "^0.12.4"
 
-"@egiftcard/merkletree@^0.2.0":
+"@egiftcard/merkletree@^0.2.5":
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/@egiftcard/merkletree/-/merkletree-0.2.5.tgz#94c704f82125eff2bcabe1cd0093ad75f0eae2c4"
   integrity sha512-VufqCZjHhvFSj+HOp+weMPLSpGILpg/48DDTRSfNvaUotEj5ZKxixet8KOhDU7sWMuQ0Z+GKF9SGarNNp69p9w==
@@ -1795,9 +1795,9 @@ duplexify@^4.1.2:
     stream-shift "^1.0.2"
 
 egiftcard@^1.0.0-beta-75bec3710151c4255c8314e3ce8dd366265b6c58-20240317031400:
-  version "5.9.0"
-  resolved "https://registry.yarnpkg.com/egiftcard/-/egiftcard-5.9.0.tgz#ff69b034b8ae3eb8f7abd4529c7fb513b58f973d"
-  integrity sha512-YvludNwBpB82S2+RkrlrsRpawRaBbHh8cfUoJmwxlmFgjiCjK5I1FmfEzp0vlMCmbFbFBM0nuat3vlehKbJlSQ==
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/egiftcard/-/egiftcard-5.3.1.tgz#fb19d90522cf8b1888d7083d7899b3e17b84d4a1"
+  integrity sha512-mdAZDj0yJhjAyR1YTuFYQY6TXFkBQQbcpCvbY1LvONpMzBJ7OfnSk+fZoLZ9nt1QqBcyYjgxFnD5J/x23se4BQ==
   dependencies:
     "@coinbase/wallet-sdk" "3.7.2"
     "@emotion/react" "11.11.4"

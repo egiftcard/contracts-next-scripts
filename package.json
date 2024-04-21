@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@egiftcard/merkletree": "^0.2.0",
+    "@egiftcard/merkletree": "^0.2.5",
     "dotenv": "^16.0.3",
     "egiftcard": "^1.0.0-beta-75bec3710151c4255c8314e3ce8dd366265b6c58-20240317031400"
   }
